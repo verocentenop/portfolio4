@@ -13,7 +13,7 @@ export const printSkills = () => {
   const textSkills = document.createElement('p')
   textSkills.className = 'text-skills'
   textSkills.textContent =
-    'I love to design with creativity and ingenuity, I value strong content structure, clean design patterns, and thoughtful interactions. In building JavaScript applications, I am equipped with just the right tools, and i know how to work with them to deliver fast, resilient solutions optimized for scale. Performance and scalabilty are priorities on my projects. '
+    'I love to design with creativity and ingenuity, I value strong content structure, clean design patterns, and thoughtful interactions. In building JavaScript applications, I am equipped with just the right tools, and I know how to work with them to deliver fast, resilient solutions optimized for scale. Performance and scalabilty are priorities on my projects. '
 
   const decorativeElement = document.createElement('div')
   const decorativeElement2 = document.createElement('div')

@@ -1,0 +1,90 @@
+header {
+  width: 99vw;
+  background-color: var(--bg-dark-color);
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+header > img {
+  margin-left: var(--margin-l);
+  width: 200px;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  padding: 30px;
+  margin-right: 5vw;
+}
+li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+nav :focus {
+  padding-bottom: 10px;
+  border-bottom: solid 2px purple;
+}
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+    padding: var(--padding-s);
+    flex-direction: column;
+    justify-content: center;
+  }
+  #home {
+    min-height: 950px;
+  }
+
+  header > img {
+    padding: 0;
+    padding-bottom: 15px;
+    margin: 0;
+  }
+  nav > ul > li {
+    z-index: 5;
+  }
+  nav > ul {
+    width: 300px;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  .hero-info {
+    margin-top: 130px;
+    flex-direction: column;
+    text-align: center;
+    width: 330px;
+    padding-bottom: 20px;
+  }
+  .skills-info {
+    padding: var(--padding-l);
+  }
+  .project-article > .project-img {
+    width: 300px;
+  }
+  .project-article > h4 {
+    text-align: center;
+  }
+  .buttons {
+    max-width: 200px;
+  }
+  .prom {
+    max-width: 290px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .hero-info > p {
+    width: fit-content;
+    padding: 10;
+  }
+}

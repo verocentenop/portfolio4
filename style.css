@@ -1,0 +1,41 @@
+:root {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  --bg-dark-color: #90faf1;
+  --bg-clear-color: rgb(168, 248, 221);
+  --padding-s: 15px;
+  --padding-m: 25px;
+  --padding-l: 40px;
+  --margin-s: 15px;
+  --margin-m: 25px;
+  --margin-l: 40px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1300spx) {
+  header {
+    padding: var(--padding-s);
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav > ul > li {
+    z-index: 5;
+  }
+  nav > ul {
+    width: 300px;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .hero-info {
+    flex-direction: column;
+    text-align: center;
+    width: 330px;
+    padding-bottom: 20px;
+  }
+}

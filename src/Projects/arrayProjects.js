@@ -17,7 +17,7 @@ export const arrayProjects = [
     img: './src/assets/pinterest.png',
     name: 'Pinterest: Gallery with filters and search',
     p: '#HTML    #CSS    #JavaScript',
-    link: '',
+    link: 'http://localhost:5173/',
     code: 'https://github.com/verocentenop/proyecto3/tree/main/pinterest'
   }
 ]

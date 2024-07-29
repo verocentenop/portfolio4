@@ -18,6 +18,6 @@ export const arrayProjects = [
     name: 'Pinterest: Gallery with filters and search',
     p: '#HTML    #CSS    #JavaScript',
     link: '',
-    code: 'https://venerable-pika-e1568f.netlify.app'
+    code: 'https://github.com/verocentenop/proyecto3/tree/main/pinterest'
   }
 ]

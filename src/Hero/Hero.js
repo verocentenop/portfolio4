@@ -18,7 +18,7 @@ export const printHero = () => {
     " Hi, I'm Verónica, nice to meet you. I am a Full Stack Developer student and I enjoy creating solid and scalable products with great user experiences and good backend support. "
 
   const heroImg = document.createElement('img')
-  heroImg.src = 'src/assets/my-photo.png'
+  heroImg.src = 'https://res.cloudinary.com/dzqoduh1s/image/upload/v1722323945/my-photo_dxvf5a.png'
   heroImg.alt = 'my-photo'
 
   const decorativeElement = document.createElement('div')

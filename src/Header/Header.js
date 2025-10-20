@@ -6,7 +6,11 @@ export const printHeader = () => {
   headerContainer.className = 'header'
   const img = document.createElement('img')
   img.className = 'logo-image'
+<<<<<<< HEAD
   img.src = 'src/assets/logo.png'
+=======
+  img.src = 'https://res.cloudinary.com/dzqoduh1s/image/upload/v1722323958/vc-brand_ubqcho.png'
+>>>>>>> 08df12c1afc2d1ee1a9e09f780e588d44557217e
   img.alt = 'logo'
 
   const nav = document.createElement('nav')

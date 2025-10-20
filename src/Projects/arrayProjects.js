@@ -1,6 +1,6 @@
 export const arrayProjects = [
   {
-    img: './src/assets/quexines.png',
+    img: 'https://res.cloudinary.com/dzqoduh1s/image/upload/v1722323993/quexines_ab7e6v.png',
     name: 'Quexines Films: Landing page',
     p: '#HTML    #CSS',
     link: 'https://quexines-films.netlify.app/',
@@ -8,7 +8,7 @@ export const arrayProjects = [
   },
   {
     name: 'CanonClick: Products sales page with filters',
-    img: './src/assets/canon-click.png',
+    img: 'https://res.cloudinary.com/dzqoduh1s/image/upload/v1722323896/canon-click_eior4l.png',
     p: '#HTML    #CSS    #JavaScript',
     link: 'https://venerable-pika-e1568f.netlify.app',
     code: 'https://github.com/verocentenop/proyecto2ok.git'
@@ -18,6 +18,6 @@ export const arrayProjects = [
     name: 'VC Games: Arcade games',
     p: '#HTML    #CSS    #JavaScript',
     link: 'https://vc-games.netlify.app',
-    code: 'https://github.com/verocentenop/proyecto3/tree/main/pinterest'
+    code: 'https://github.com/verocentenop/C-Games-proyecto5.git'
   }
 ]

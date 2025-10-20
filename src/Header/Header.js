@@ -7,7 +7,8 @@ export const printHeader = () => {
   const img = document.createElement('img')
   img.className = 'logo-image'
 
-  img.src = 'src/assets/logo.png'
+  img.src =
+    'https://res.cloudinary.com/dzqoduh1s/image/upload/v1760972780/logo_cpuagu.png'
 
   img.alt = 'logo'
 

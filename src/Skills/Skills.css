@@ -2,6 +2,7 @@
   width: 99vw;
   height: fit-content;
   background-color: #c8e162;
+  animation: moverArribaAbajo 2s infinite alternate ease-in-out;
 }
 .skills-info {
   display: flex;
@@ -77,5 +78,16 @@
     padding: 0;
     font-size: 22px;
     font-weight: 550;
+  }
+}
+@keyframes moverArribaAbajo {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }

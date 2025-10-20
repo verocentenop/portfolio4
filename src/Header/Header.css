@@ -26,9 +26,10 @@ li > a {
   font-size: 18px;
   font-weight: bold;
 }
-nav :focus {
-  padding-bottom: 10px;
+li :hover,
+:focus {
   border-bottom: solid 2px purple;
+  transform: scale(1.1);
 }
 .hidden {
   display: none;

@@ -14,8 +14,8 @@ export const arrayProjects = [
     code: 'https://github.com/verocentenop/proyecto2ok.git'
   },
   {
-    img: './src/assets/games.png',
-    name: 'https://res.cloudinary.com/dzqoduh1s/image/upload/v1760972780/logo_cpuagu.png',
+    img: 'https://res.cloudinary.com/dzqoduh1s/image/upload/v1760973060/games_jzdyhc.jpg',
+    name: 'VC Games',
     p: '#HTML    #CSS    #JavaScript',
     link: 'https://vc-games.netlify.app',
     code: 'https://github.com/verocentenop/VC-Games-proyecto5.git'

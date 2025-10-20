@@ -1,8 +1,8 @@
 :root {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  --bg-dark-color: #90faf1;
-  --bg-clear-color: rgb(168, 248, 221);
+  --bg-dark-color: #edefef;
+  --bg-clear-color: rgb(235, 239, 238);
   --padding-s: 15px;
   --padding-m: 25px;
   --padding-l: 40px;

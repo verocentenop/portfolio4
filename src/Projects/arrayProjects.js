@@ -3,7 +3,7 @@ export const arrayProjects = [
     img: './src/assets/quexines.png',
     name: 'Quexines Films: Landing page',
     p: '#HTML    #CSS',
-    link: 'https://vermillion-scone-41111d.netlify.app/',
+    link: 'https://quexines-films.netlify.app/',
     code: 'https://github.com/verocentenop/proyecto1.0.git'
   },
   {
@@ -14,10 +14,10 @@ export const arrayProjects = [
     code: 'https://github.com/verocentenop/proyecto2ok.git'
   },
   {
-    img: './src/assets/pinterest.png',
-    name: 'Pinterest: Gallery with filters and search',
+    img: './src/assets/games.png',
+    name: 'VC Games: Arcade games',
     p: '#HTML    #CSS    #JavaScript',
-    link: '',
-    code: 'https://venerable-pika-e1568f.netlify.app'
+    link: 'https://vc-games.netlify.app',
+    code: 'https://github.com/verocentenop/proyecto3/tree/main/pinterest'
   }
 ]

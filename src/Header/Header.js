@@ -6,7 +6,7 @@ export const printHeader = () => {
   headerContainer.className = 'header'
   const img = document.createElement('img')
   img.className = 'logo-image'
-  img.src = 'src/assets/vc-brand.png'
+  img.src = 'src/assets/logo.png'
   img.alt = 'logo'
 
   const nav = document.createElement('nav')

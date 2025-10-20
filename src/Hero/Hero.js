@@ -15,7 +15,7 @@ export const printHero = () => {
 
   const heroP = document.createElement('p')
   heroP.textContent =
-    " Hi, I'm Verónica, nice to meet you. I am a Full Stack Developer student and I enjoy creating solid and scalable products with great user experiences and good backend support. "
+    " Hi, I'm Veronica, nice to meet you. I'm a full-stack developer and I enjoy creating robust, scalable products with excellent user experiences and solid backend support. "
 
   const heroImg = document.createElement('img')
   heroImg.src = 'src/assets/my-photo.png'

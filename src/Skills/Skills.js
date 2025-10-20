@@ -13,7 +13,7 @@ export const printSkills = () => {
   const textSkills = document.createElement('p')
   textSkills.className = 'text-skills'
   textSkills.textContent =
-    'I love to design with creativity and ingenuity, I value strong content structure, clean design patterns, and thoughtful interactions. In building JavaScript applications, I am equipped with just the right tools, and i know how to work with them to deliver fast, resilient solutions optimized for scale. Performance and scalabilty are priorities on my projects. '
+    'I love to design with creativity and ingenuity, I value strong content structure, clean design patterns, and thoughtful interactions. In building JavaScript applications, I am equipped with just the right tools, and I know how to work with them to deliver fast, resilient solutions optimized for scale. Performance and scalabilty are priorities on my projects. '
 
   const decorativeElement = document.createElement('div')
   const decorativeElement2 = document.createElement('div')
@@ -30,11 +30,6 @@ export const printTools = () => {
   sectionSkills.className = 'section-tools'
   const skillsTitle = document.createElement('h3')
   skillsTitle.textContent = 'My languages and tools:'
-
-  const sectionNext = document.createElement('section')
-  sectionNext.className = 'section-tools'
-  const nextTitle = document.createElement('h3')
-  nextTitle.textContent = 'I am learning:'
 
   const decorativeTriangle = document.createElement('div')
   decorativeTriangle.className = 'decorative-triangle'
@@ -53,7 +48,7 @@ export const printTools = () => {
 
     skillsBox.append(img, skillName)
     sectionSkills.append(skillsBox)
-    sectionTools.append(skillsTitle, sectionSkills)
+    sectionTools.append(skillsTitle, sectionSkills, decorativeTriangle)
   }
   for (const tool of nextTools) {
     const skillsBox = document.createElement('article')
@@ -68,7 +63,7 @@ export const printTools = () => {
     skillName.className = 'skill-name'
 
     skillsBox.append(img, skillName)
-    sectionNext.append(skillsBox)
-    sectionTools.append(nextTitle, sectionNext, decorativeTriangle)
+
+    sectionTools.append(decorativeTriangle)
   }
 }

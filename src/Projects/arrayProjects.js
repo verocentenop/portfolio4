@@ -15,9 +15,9 @@ export const arrayProjects = [
   },
   {
     img: './src/assets/games.png',
-    name: 'VC Games: Arcade games',
+    name: 'https://res.cloudinary.com/dzqoduh1s/image/upload/v1760972780/logo_cpuagu.png',
     p: '#HTML    #CSS    #JavaScript',
-    link: 'https://res.cloudinary.com/dzqoduh1s/image/upload/v1760972780/logo_cpuagu.png',
-    code: 'https://github.com/verocentenop/C-Games-proyecto5.git'
+    link: 'https://vc-games.netlify.app',
+    code: 'https://github.com/verocentenop/VC-Games-proyecto5.git'
   }
 ]
